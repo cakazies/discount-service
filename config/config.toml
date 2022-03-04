@@ -1,0 +1,28 @@
+
+[api]
+host = "0.0.0.0"
+port = 8072
+read_timeout = 30
+write_timeout = 30
+idle_timeout = 30
+context_timeout = 180
+
+[db_write]
+host = "127.0.0.1"
+port = 5433
+user = "postgres"
+password = "postgres"
+database = "postgres"
+max_open_con = 10
+max_idle_con = 8
+max_lifetime = 5
+
+[db_read]
+host = "127.0.0.1"
+port = 5433
+user = "postgres"
+password = "postgres"
+database = "postgres"
+max_open_con = 10
+max_idle_con = 8
+max_lifetime = 5
